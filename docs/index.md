@@ -15,3 +15,4 @@ A zero-knowledge-friendly sparsification technique for neural networks, designed
 </div>
 
 {% include feature_row id="features" %}
+
