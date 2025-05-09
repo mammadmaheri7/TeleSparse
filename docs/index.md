@@ -30,7 +30,7 @@ Deep neural networks (DNNs) have transformed AI, powering breakthroughs in image
 
 TeleSparse assumes a malicious verifier and prover scenario, focusing on protecting sensitive model weights and inputs while verifying correctness. The threat model ensures that while parties follow the protocol, they may try to infer private information indirectly. TeleSparse provides robust guarantees against such privacy leakages.
 
-![Threat Model](assets/images/thread_model.png)
+![Threat Model](assets/images/threat_model.png)
 
 ---
 
