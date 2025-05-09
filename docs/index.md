@@ -1,18 +1,20 @@
 ---
 layout: splash
-title: ""  # prevents the default title from showing
+title: ""  # Prevent default page title
 permalink: /
 header:
-  overlay_image: assets/images/banner.jpg
-  overlay_height: "auto"
-  overlay_filter: "0.3"
-  caption: " "  # non-breaking space to push buttons down
+  overlay_image: /assets/images/banner.jpg
+  overlay_filter: "0.0"
+  overlay_position: center
+  overlay_height: "500px"  # or auto
+  caption: "<br><br><br>"  # Pushes buttons lower
   actions:
-    - label: "GitHub"
-      url: "https://github.com/mammadmaheri7/TeleSparseRepo"
-    - label: "Paper"
-      url: "https://www.arxiv.org/abs/2504.19274"
-  caption: " "  # pushes buttons down slightly
+    - label: \"GitHub\"
+      url: \"https://github.com/mammadmaheri7/TeleSparseRepo\"
+    - label: \"Paper\"
+      url: \"https://www.arxiv.org/abs/2504.19274\"
+    - label: \"Dataset\"
+      url: \"#\"
 ---
 
 
