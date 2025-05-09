@@ -3,7 +3,7 @@ layout: splash
 title: ""  # prevents the default title from showing
 permalink: /
 header:
-  overlay_image: /assets/images/banner.jpg
+  overlay_image: /assets/images/banner.png
   overlay_position: center
   overlay_width: "70%"
   overlay_height: "auto"
