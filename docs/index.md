@@ -5,8 +5,8 @@ permalink: /
 classes: wide  # ✅ this expands the content width
 ---
 
-<div style="display: flex; justify-content: center;">
-  <img src="{{ '/assets/images/banner.jpg' | relative_url }}" alt="TeleSparse banner" style="width: 100%; max-width: 1200px; margin-bottom: 2rem;" />
+<div style="text-align: center;">
+  <img src="{{ '/assets/images/banner.jpg' | relative_url }}" alt="TeleSparse banner" style="width: 90%; max-width: 1200px; margin: 0 auto 2rem auto; display: block;" />
 </div>
 
 <div style="text-align: center; margin-bottom: 2rem;">
