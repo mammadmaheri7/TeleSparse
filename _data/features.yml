@@ -1,5 +1,5 @@
 features:
-  - image_path: "{{ site.baseurl }}/assets/images/icon1.png"
+  - image_path: "/assets/images/icon1.png"
     title: "Sparse-aware Pruning"
     excerpt: "Preserves accuracy while reducing circuit cost."
 
