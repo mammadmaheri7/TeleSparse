@@ -4,7 +4,7 @@ title: ""  # prevents the default title from showing
 permalink: /
 header:
   overlay_image: assets/images/banner.jpg
-  overlay_height: 400px
+  overlay_height: 300px
   overlay_filter: "0.3"
   actions:
     - label: "GitHub"
