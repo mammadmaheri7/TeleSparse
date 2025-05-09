@@ -5,8 +5,8 @@ permalink: /
 classes: wide  # ✅ this expands the content width
 ---
 
-<div style="margin: 0; padding: 0;">
-  <img src="{{ '/assets/images/banner.jpg' | relative_url }}" alt="TeleSparse banner" style="width: 100%; margin-bottom: 2rem;" />
+<div style="display: flex; justify-content: center;">
+  <img src="{{ '/assets/images/banner.jpg' | relative_url }}" alt="TeleSparse banner" style="width: 100%; max-width: 1200px; margin-bottom: 2rem;" />
 </div>
 
 <div style="text-align: center; margin-bottom: 2rem;">
@@ -15,15 +15,12 @@ classes: wide  # ✅ this expands the content width
   <a href="#" class="btn btn--primary">Dataset</a>
 </div>
 
-<div style="max-width: 100%; text-align: justify;">
+<div style="max-width: 900px; margin: 0 auto; text-align: center;">
   A zero-knowledge-friendly sparsification technique for neural networks, designed to optimize SNARK proof generation without compromising accuracy.
 </div>
 
 {% include feature_row id="features" %}
 
-
-
-A zero-knowledge-friendly sparsification technique for neural networks, designed to optimize SNARK proof generation without compromising accuracy.
 
 {% include feature_row id="features" %}
 
