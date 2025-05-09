@@ -6,3 +6,5 @@ plugins:
 # Optional settings
 title: "TeleSparse"
 description: "Practical Privacy-Preserving Verification of Deep Neural Networks"
+baseurl: "/TeleSparse"
+
