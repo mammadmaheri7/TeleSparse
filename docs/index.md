@@ -5,10 +5,10 @@ permalink: /
 header:
   overlay_image: /assets/images/banner.jpg
   overlay_position: center
+  overlay_width: "70%"
   overlay_height: "auto"
-  overlay_width: "100%"
   margin: "2rem auto"
-  overlay_height: 400px
+  overlay_height: 200px
   overlay_filter: "0.0"
   actions:
     - label: "GitHub"
