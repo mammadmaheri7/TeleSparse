@@ -2,32 +2,27 @@
 layout: single
 title: ""
 permalink: /
-classes: wide
+classes: wide  # ✅ this expands the content width
 ---
 
-<div class="page__content" style="max-width: 1200px; margin: 0 auto; text-align: center;">
-
-  <img src="{{ '/assets/images/banner.jpg' | relative_url }}" 
-       alt="TeleSparse banner" 
-       style="width: 100%; max-width: 1000px; margin-bottom: 2rem; display: block;" />
-
-  <div style="margin-bottom: 2rem;">
-    <a href="https://github.com/mammadmaheri7/TeleSparseRepo" class="btn btn--primary">GitHub</a>
-    <a href="https://www.arxiv.org/abs/2504.19274" class="btn btn--primary">Paper</a>
-    <a href="#" class="btn btn--primary">Dataset</a>
-  </div>
-
-  <div style="margin: 0 auto; max-width: 800px;">
-    A zero-knowledge-friendly sparsification technique for neural networks, designed to optimize SNARK proof generation without compromising accuracy.
-  </div>
-
+<div style="text-align: center;">
+  <img src="{{ '/assets/images/banner.jpg' | relative_url }}" alt="TeleSparse banner" style="width: 90%; max-width: 1200px; margin: 0 auto 2rem auto; display: block;" />
 </div>
 
-<div style="max-width: 1000px; margin: 2rem auto;">
-  {% include feature_row id="features" %}
+<div style="text-align: center; margin-bottom: 2rem;">
+  <a href="https://github.com/mammadmaheri7/TeleSparseRepo" class="btn btn--primary">GitHub</a>
+  <a href="https://www.arxiv.org/abs/2504.19274" class="btn btn--primary">Paper</a>
+  <a href="#" class="btn btn--primary">Dataset</a>
 </div>
 
-<div class="page__content" style="max-width: 1000px; margin: 0 auto;">
+<div style="max-width: 900px; margin: 0 auto; text-align: center;">
+  A zero-knowledge-friendly sparsification technique for neural networks, designed to optimize SNARK proof generation without compromising accuracy.
+</div>
+
+{% include feature_row id="features" %}
+
+
+{% include feature_row id="features" %}
 
 ### 🚀 TeleSparse: Practical Zero-Knowledge Proofs for Deep Neural Networks
 
@@ -100,5 +95,3 @@ Using Halo2, known for efficient zero-knowledge proofs, TeleSparse leverages lig
 ### 🌟 Why TeleSparse Matters
 
 TeleSparse revolutionizes zero-knowledge proofs, enabling scalable, secure, and privacy-preserving AI. Dive deeper into TeleSparse on our [GitHub repository](https://github.com/mammadmaheri7/TeleSparseRepo) or explore our [arXiv paper](https://www.arxiv.org/abs/2504.19274)! 🌐
-
-</div>
