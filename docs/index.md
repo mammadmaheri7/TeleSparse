@@ -1,24 +1,23 @@
 ---
-layout: splash
-title: ""  # prevents the default title from showing
+layout: single
+title: ""
 permalink: /
-header:
-  overlay_image: /assets/images/banner.png
-  overlay_position: center
-  overlay_width: "70%"
-  overlay_height: "auto"
-  margin: "2rem auto"
-  overlay_height: 200px
-  overlay_filter: "0.0"
-  actions:
-    - label: "GitHub"
-      url: "https://github.com/mammadmaheri7/TeleSparseRepo"
-    - label: "Paper"
-      url: "https://www.arxiv.org/abs/2504.19274"
-    - label: "Dataset"
-      url: "#"
-  caption: "<br><br><br>"
+classes: wide  # ✅ this expands the content width
 ---
+
+<div style="margin: 0; padding: 0;">
+  <img src="{{ '/assets/images/banner.jpg' | relative_url }}" alt="TeleSparse banner" style="width: 100%; margin-bottom: 2rem;" />
+</div>
+
+<div style="text-align: center; margin-bottom: 2rem;">
+  <a href="https://github.com/mammadmaheri7/TeleSparseRepo" class="btn btn--primary">GitHub</a>
+  <a href="https://www.arxiv.org/abs/2504.19274" class="btn btn--primary">Paper</a>
+  <a href="#" class="btn btn--primary">Dataset</a>
+</div>
+
+<div style="max-width: 100%; text-align: justify;">
+  A zero-knowledge-friendly sparsification technique for neural networks, designed to optimize SNARK proof generation without compromising accuracy.
+</div>
 
 {% include feature_row id="features" %}
 
