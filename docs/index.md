@@ -1,9 +1,8 @@
 ---
 layout: splash
-title: "TeleSparse"
+title: ""
 permalink: /
-subtitle: "Practical Privacy-Preserving Verification of Deep
-Neural Networks"
+subtitle: ""
 header:
   overlay_color: "#b30000"
   overlay_filter: "0.3"
@@ -16,9 +15,10 @@ header:
     - label: "Dataset"
       url: "#"
 excerpt: >
-  A zero-knowledge-friendly sparsification technique for neural networks,
-  designed to optimize SNARK proof generation without compromising accuracy.
+  ""
 ---
+# TeleSparse
+A zero-knowledge-friendly sparsification technique for neural networks, designed to optimize SNARK proof generation without compromising accuracy.
 
 {% include feature_row id="features" %}
 
