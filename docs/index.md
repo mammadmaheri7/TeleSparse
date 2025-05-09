@@ -4,7 +4,8 @@ title: ""  # prevents the default title from showing
 permalink: /
 header:
   overlay_image: assets/images/banner.jpg
-  overlay_filter: "0.0"
+  overlay_height: 400px
+  overlay_filter: "0.3"
   actions:
     - label: "GitHub"
       url: "https://github.com/mammadmaheri7/TeleSparseRepo"
