@@ -1,6 +1,7 @@
 ---
 layout: splash
 title: "TeleSparse"
+permalink: /
 subtitle: "Practical Privacy-Preserving Verification of Deep
 Neural Networks"
 header:
@@ -20,3 +21,4 @@ excerpt: >
 ---
 
 {% include feature_row id="features" %}
+
