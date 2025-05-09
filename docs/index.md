@@ -4,8 +4,9 @@ title: ""  # prevents the default title from showing
 permalink: /
 header:
   overlay_image: assets/images/banner.jpg
-  overlay_height: 300px
+  overlay_height: "auto"
   overlay_filter: "0.3"
+  caption: " "  # non-breaking space to push buttons down
   actions:
     - label: "GitHub"
       url: "https://github.com/mammadmaheri7/TeleSparseRepo"
@@ -14,7 +15,6 @@ header:
   caption: " "  # pushes buttons down slightly
 ---
 
-<br><br><br>
 
 A zero-knowledge-friendly sparsification technique for neural networks, designed to optimize SNARK proof generation without compromising accuracy.
 
