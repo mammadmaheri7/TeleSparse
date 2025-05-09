@@ -3,7 +3,7 @@ layout: splash
 title: ""  # prevents the default title from showing
 permalink: /
 header:
-  overlay_image: /assets/images/banner.jpg
+  overlay_image: assets/images/banner.jpg
   overlay_filter: "0.0"
   actions:
     - label: "GitHub"
@@ -30,7 +30,7 @@ Deep neural networks (DNNs) have transformed AI, powering breakthroughs in image
 TeleSparse assumes a malicious verifier and prover scenario, focusing on protecting sensitive model weights and inputs while verifying correctness. The threat model ensures that while parties follow the protocol, they may try to infer private information indirectly. TeleSparse provides robust guarantees against such privacy leakages.
 
 <p align="center">
-  <img src="/assets/images/threat_model.png" alt="Threat Model" width="65%">
+  <img src="assets/images/threat_model.png" alt="Threat Model" width="65%">
 </p>
 
 ---
@@ -47,7 +47,7 @@ TeleSparse assumes a malicious verifier and prover scenario, focusing on protect
 The figure below provides an overview of the TeleSparse system, showcasing its integration with the Halo2 proving system:
 
 <p align="center">
-  <img src="/assets/images/overview.png" alt="System Overview" width="65%">
+  <img src="assets/images/overview.png" alt="System Overview" width="65%">
 </p>
 
 ---
@@ -63,7 +63,7 @@ TeleSparse employs sparse-aware pruning, reducing unnecessary constraints by str
 Neural network teleportation minimizes activation ranges, reducing lookup table sizes essential for zero-knowledge proofs. Teleportation optimizes activations, significantly streamlining the verification process. TeleSparse's teleportation adjusts activation ranges to be narrower, reducing the lookup tables needed. The distribution below illustrates this for ResNet20:
 
 <p align="center">
-  <img src="/assets/images/teleportation.png" alt="Activation Range Distribution for ResNet20" width="55%">
+  <img src="assets/images/teleportation.png" alt="Activation Range Distribution for ResNet20" width="55%">
 </p>
 
 ---
@@ -76,7 +76,7 @@ TeleSparse has been rigorously tested on popular architectures (Vision Transform
 * **🎯 Accuracy Retention:** Only about a 1% accuracy drop—minimal compared to huge efficiency gains.
 
 <p align="center">
-  <img src="/assets/images/evaluation.png" alt="Evaluation Framework" width="55%">
+  <img src="assets/images/evaluation.png" alt="Evaluation Framework" width="55%">
 </p>
 
 ---
