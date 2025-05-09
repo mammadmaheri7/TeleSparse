@@ -2,14 +2,14 @@
 layout: single
 title: ""
 permalink: /
-classes: wide  # ✅ this expands the content width
+classes: wide
 ---
 
-<div style="max-width: 1200px; margin: 0 auto; text-align: center;">
+<div class="page__content" style="max-width: 1200px; margin: 0 auto; text-align: center;">
 
   <img src="{{ '/assets/images/banner.jpg' | relative_url }}" 
        alt="TeleSparse banner" 
-       style="width: 100%; max-width: 1000px; margin: 0 auto 2rem auto; display: block;" />
+       style="width: 100%; max-width: 1000px; margin-bottom: 2rem; display: block;" />
 
   <div style="margin-bottom: 2rem;">
     <a href="https://github.com/mammadmaheri7/TeleSparseRepo" class="btn btn--primary">GitHub</a>
@@ -23,10 +23,9 @@ classes: wide  # ✅ this expands the content width
 
 </div>
 
-
-
-{% include feature_row id="features" %}
-
+<div style="max-width: 1000px; margin: 2rem auto;">
+  {% include feature_row id="features" %}
+</div>
 
 <div class="page__content" style="max-width: 1000px; margin: 0 auto;">
 
@@ -101,4 +100,5 @@ Using Halo2, known for efficient zero-knowledge proofs, TeleSparse leverages lig
 ### 🌟 Why TeleSparse Matters
 
 TeleSparse revolutionizes zero-knowledge proofs, enabling scalable, secure, and privacy-preserving AI. Dive deeper into TeleSparse on our [GitHub repository](https://github.com/mammadmaheri7/TeleSparseRepo) or explore our [arXiv paper](https://www.arxiv.org/abs/2504.19274)! 🌐
+
 </div>
