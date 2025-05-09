@@ -1,12 +1,12 @@
 features:
-  - image_path: /assets/images/icon1.png
+  - image_path: "{{ site.baseurl }}/assets/images/icon1.png"
     title: "Sparse-aware Pruning"
     excerpt: "Preserves accuracy while reducing circuit cost."
 
-  - image_path: /assets/images/icon2.png
+  - image_path: "{{ site.baseurl }}/assets/images/icon2.png"
     title: "zkML Compatible"
     excerpt: "Optimized for Halo2 and zk-SNARK circuits."
 
-  - image_path: /assets/images/icon3.png
+  - image_path: "{{ site.baseurl }}/assets/images/icon3.png"
     title: "Evaluation Framework"
     excerpt: "Benchmarked on CIFAR and ImageNet in zk."
